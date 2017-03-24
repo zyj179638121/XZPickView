@@ -1,0 +1,7 @@
+XZPickView.xcodeproj/xcuserdata/
+XZPickView.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XZPickView.xcodeproj/project.xcworkspace/xcuserdata/
