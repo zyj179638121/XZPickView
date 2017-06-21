@@ -3,7 +3,7 @@ XZPickView
 ### iOS自定义pickView,时间选择器,类似于滴滴出行时间的选择,具体效果可以根据需求更改pickView的数据源。
 
 ## 效果图
-![ImpressionDrawing](https://github.com/zyj179638121/XZPickView/blob/master/show.png)
+<img src="https://github.com/zyj179638121/XZPickView/blob/master/show.png" width="180" height="335" />
 
 ## 集成说明
 你可以在`Podfile`中加入下面一行代码来使用`XZPickView`
