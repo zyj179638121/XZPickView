@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "git@github.com:zyj179638121/XZPickView.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/zyj179638121/XZPickView.git", :tag => s.version.to_s }
 
   s.source_files  = "XZPickView/XZPickView/*.{h,m}"
 
