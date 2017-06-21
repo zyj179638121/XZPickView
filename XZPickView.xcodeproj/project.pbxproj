@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		081E34F01EFA14A700C8775F /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 081E34EF1EFA14A700C8775F /* UIView+Category.m */; };
 		083B49741E850FDC00A865F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B49731E850FDC00A865F9 /* main.m */; };
 		083B49771E850FDC00A865F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B49761E850FDC00A865F9 /* AppDelegate.m */; };
 		083B497A1E850FDC00A865F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B49791E850FDC00A865F9 /* ViewController.m */; };
@@ -14,9 +15,12 @@
 		083B497F1E850FDC00A865F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083B497E1E850FDC00A865F9 /* Assets.xcassets */; };
 		083B49821E850FDC00A865F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083B49801E850FDC00A865F9 /* LaunchScreen.storyboard */; };
 		083B498C1E8510F100A865F9 /* XZPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 083B498B1E8510F100A865F9 /* XZPickView.m */; };
+		7F8995A62DB9C69C6CC07D1B /* libPods-XZPickView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76430D3FA41D9D879E610744 /* libPods-XZPickView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081E34EE1EFA14A700C8775F /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		081E34EF1EFA14A700C8775F /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 		083B496F1E850FDC00A865F9 /* XZPickView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XZPickView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083B49731E850FDC00A865F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		083B49751E850FDC00A865F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +33,9 @@
 		083B49831E850FDC00A865F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		083B498A1E8510F100A865F9 /* XZPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZPickView.h; sourceTree = "<group>"; };
 		083B498B1E8510F100A865F9 /* XZPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZPickView.m; sourceTree = "<group>"; };
+		6717638AC9E47D0D4C3ED713 /* Pods-XZPickView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZPickView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XZPickView/Pods-XZPickView.debug.xcconfig"; sourceTree = "<group>"; };
+		76430D3FA41D9D879E610744 /* libPods-XZPickView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XZPickView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E674C0C6DBD2A4A496227A /* Pods-XZPickView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XZPickView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XZPickView/Pods-XZPickView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F8995A62DB9C69C6CC07D1B /* libPods-XZPickView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +55,8 @@
 			children = (
 				083B49711E850FDC00A865F9 /* XZPickView */,
 				083B49701E850FDC00A865F9 /* Products */,
+				EA1BDCB279C9841D0F2B7F76 /* Pods */,
+				6E24CBB582C5086522C58B0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +98,27 @@
 			children = (
 				083B498A1E8510F100A865F9 /* XZPickView.h */,
 				083B498B1E8510F100A865F9 /* XZPickView.m */,
+				081E34EE1EFA14A700C8775F /* UIView+Category.h */,
+				081E34EF1EFA14A700C8775F /* UIView+Category.m */,
 			);
 			path = XZPickView;
+			sourceTree = "<group>";
+		};
+		6E24CBB582C5086522C58B0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76430D3FA41D9D879E610744 /* libPods-XZPickView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA1BDCB279C9841D0F2B7F76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6717638AC9E47D0D4C3ED713 /* Pods-XZPickView.debug.xcconfig */,
+				92E674C0C6DBD2A4A496227A /* Pods-XZPickView.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 083B49861E850FDC00A865F9 /* Build configuration list for PBXNativeTarget "XZPickView" */;
 			buildPhases = (
+				7C3BDAD46848048E4B8A4336 /* [CP] Check Pods Manifest.lock */,
 				083B496B1E850FDC00A865F9 /* Sources */,
 				083B496C1E850FDC00A865F9 /* Frameworks */,
 				083B496D1E850FDC00A865F9 /* Resources */,
+				F0982C4DA8849A8F6326F8C1 /* [CP] Embed Pods Frameworks */,
+				06FC8A704E5E9CEA3FCEE5C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +190,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06FC8A704E5E9CEA3FCEE5C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZPickView/Pods-XZPickView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C3BDAD46848048E4B8A4336 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0982C4DA8849A8F6326F8C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XZPickView/Pods-XZPickView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		083B496B1E850FDC00A865F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,6 +246,7 @@
 				083B497A1E850FDC00A865F9 /* ViewController.m in Sources */,
 				083B49771E850FDC00A865F9 /* AppDelegate.m in Sources */,
 				083B49741E850FDC00A865F9 /* main.m in Sources */,
+				081E34F01EFA14A700C8775F /* UIView+Category.m in Sources */,
 				083B498C1E8510F100A865F9 /* XZPickView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +363,7 @@
 		};
 		083B49871E850FDC00A865F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6717638AC9E47D0D4C3ED713 /* Pods-XZPickView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XZPickView/Info.plist;
@@ -293,6 +375,7 @@
 		};
 		083B49881E850FDC00A865F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E674C0C6DBD2A4A496227A /* Pods-XZPickView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XZPickView/Info.plist;
@@ -321,6 +404,7 @@
 				083B49881E850FDC00A865F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
